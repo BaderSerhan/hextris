@@ -162,6 +162,9 @@ function gameOverDisplay() {
 }
 
 function updateHighScores (){
+	alert('score is' +score);
+	///////here is the old score, where we need to create the function that calculate it  bader will creaet the function 
+	//skill problem solving
     $("#cScore").text(score);
     $("#1place").text(highscores[0]);
     $("#2place").text(highscores[1]);
